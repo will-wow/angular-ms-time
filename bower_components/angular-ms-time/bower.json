@@ -11,8 +11,7 @@
     "globals"
   ],
   "dependencies": {
-    "angular": "~1",
-    "angular-ms-time": "~0.0.1"
+     "angular": "~1"
   },
   "keywords": [
     "angular",

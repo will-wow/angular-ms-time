@@ -1,13 +1,12 @@
 'use strict';
 
-angular.module('angularMSTime', [])
-
 /**
  * @ngdoc directive
- * @name angularMSTime.directive:angularMsTime
- * @description A directive that binds to a milliseconds model and shows time formatted as hr:min:sec
- * # angularMsTime
+ * @name promptApp.directive:angularMilliseconds
+ * @description
+ * # angularMilliseconds
  */
+angular.module('promptApp')
   .directive('angularMsTime', function () {
     return {
       restrict: 'A',

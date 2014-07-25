@@ -11,8 +11,7 @@
     "globals"
   ],
   "dependencies": {
-    "angular": "~1",
-    "angular-ms-time": "~0.0.1"
+    "angular": "~1"
   },
   "keywords": [
     "angular",
@@ -28,5 +27,15 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.1",
+    "commit": "2823f81248aec7ced5d27f911b6196e03f7fc5b1"
+  },
+  "_source": "git://github.com/whenther/angular-ms-time.git",
+  "_target": "~0.0.1",
+  "_originalSource": "angular-ms-time",
+  "_direct": true
 }

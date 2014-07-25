@@ -1,0 +1,31 @@
+{
+  "name": "angular-ms-time",
+  "version": "0.0.1",
+  "homepage": "https://github.com/whenther/angular-ms-time",
+  "authors": [
+    "whentheresawill"
+  ],
+  "description": "An Angular.js directive that binds to a milliseconds model and shows time formatted as hr:min:sec",
+  "main": "angular-ms-time.js",
+  "moduleType": [
+    "globals"
+  ],
+  "dependencies": {
+     "angular": "~1"
+  },
+  "keywords": [
+    "angular",
+    "time",
+    "milliseconds",
+    "ms",
+    "directive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

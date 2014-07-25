@@ -8,13 +8,13 @@ angular.module('angularMSTime', [])
  * @description A directive that binds to a milliseconds model and shows time formatted as hr:min:sec
  * # angularMsTime
  */
-  .directive('angularMsTime', function () {
+  .directive('msTime', function () {
     return {
       restrict: 'A',
       scope: {
-        msModel : "=angularMsTime",
-        preMs   : "@angularMsTimePre",
-        postMs  : "@angularMsTimePost",
+        msModel : "=msTime",
+        preMs   : "@msTimePre",
+        postMs  : "@msTimePost",
       },
       link: function postLink(scope, element, attrs) {
         /**
